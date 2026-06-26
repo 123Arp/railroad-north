@@ -1,0 +1,27 @@
+# Volumes and Logs
+volumes/
+*.log
+
+# Environment
+.env
+.env.local
+docker-compose.override.yml
+
+# IDE
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+dist/
+*.egg-info/
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
